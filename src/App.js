@@ -10,13 +10,13 @@ function App() {
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
-				<ABTest>
-					<ABVariant>
+				<ABTest name="COFFEE_BEER">
+					<ABVariant isDefault={true} value="BEER">
 						<p>
 							Beer tastes fantastic in the evening
 						</p>
 					</ABVariant>
-					<ABVariant>
+					<ABVariant value="COFFEE">
 						<p>
 							Coffee tastes really good in the morning
 						</p>
