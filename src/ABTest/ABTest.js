@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function ABTest() {
+export default function ABTest({
+    children
+}) {
     return (
-        <div>Hello World</div>
+        <React.Fragment>
+            {children}
+        </React.Fragment>
     );
 }
