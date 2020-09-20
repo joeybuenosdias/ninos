@@ -1,12 +1,11 @@
 import React from 'react';
 
-export default function ABTest({
+export default function ABVariant({
     children
 }) {
-    console.log(children)
     return (
         <React.Fragment>
             {children}
         </React.Fragment>
-    );
+    )
 }
